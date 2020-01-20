@@ -25,8 +25,7 @@ SECRET_KEY = '50zwzkz-jf92nevd3s64@p@5-y@3!ifr(ei++t$4t+i8-#c#+u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 # Application definition
 
@@ -37,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ecommerce.apps.EcommerceConfig',
 ]
 
 MIDDLEWARE = [
